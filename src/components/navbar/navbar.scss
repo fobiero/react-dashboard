@@ -1,0 +1,38 @@
+.navbar {
+    height: 50px;
+    border-bottom: 0.5px solid #dedede;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search {
+        display: flex;
+        border: 1px solid lightgray;
+        align-items: center;
+        padding: 3px;
+
+        input {
+            border: none;
+            outline: none;
+            background: transparent;
+
+            &::placeholder {
+                font-size: 12px;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    .items {
+        display: flex;
+    }
+}
